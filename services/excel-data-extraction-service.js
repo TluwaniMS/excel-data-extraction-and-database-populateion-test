@@ -4,7 +4,7 @@ const fs = require("fs");
 const extractExcelData = async () => {
   const doctorsData = [];
 
-  await readXlsxFile(fs.createReadStream("../assets/doctors_directory")).then((rows) => {
+  await readXlsxFile(fs.createReadStream("assets/doctors_directory.xlsx")).then((rows) => {
     console.log(rows);
   });
 
