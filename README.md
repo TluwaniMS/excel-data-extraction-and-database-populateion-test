@@ -11,6 +11,10 @@ This is a basic node-js project that I created to learn how to extract data from
 ## NB!
 Please make sure you have a running instance of Mongodb.
 
+* Step 1:
+
+Switch to the projects root directory and run "npm install" to install the rquired packages.
+
 # Dependencies:
 * EXPRESS
 * MONGOOSE
